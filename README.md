@@ -48,7 +48,7 @@ Node and Express was chosen to keep “language consistency" between front and b
 ## Getting Started
 ### Close this repository
 ```bash
-git clone https://github.com/Book-Exchange-2-0/Book-Exchange-2.1.git
+git clone [https://github.com/Book-Exchange-2-0/Book-Exchange-2.1.git](https://github.com/abisheki/FullStack_Project.git)
 ```
 
 ### Install dependencies
