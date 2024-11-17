@@ -61,7 +61,7 @@ npm install
 node server.js
 ```
 
-### Start the app
+### Start the app on a fresh Terminal
 ```bash
 npm start
 ```
