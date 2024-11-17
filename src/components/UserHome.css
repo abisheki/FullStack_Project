@@ -1,0 +1,23 @@
+.user-home-container {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.card {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
