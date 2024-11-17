@@ -33,4 +33,9 @@ node server.js
 npm start
 ```
 
+### To view the Video Recording of the Project
+```bash
+https://drive.google.com/file/d/1e8haafRHaPeyY1Hg_x8rM6sEIAS1F9iM/view?usp=drive_link
+```
+
 
