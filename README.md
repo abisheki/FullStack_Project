@@ -56,12 +56,12 @@ git clone https://github.com/abisheki/FullStack_Project.git
 npm install
 ```
 
-### Run in development
+### Start the Server
 ```bash
-npm run dev
+node server.js
 ```
 
-### Start an instance
+### Start the app
 ```bash
 npm start
 ```
