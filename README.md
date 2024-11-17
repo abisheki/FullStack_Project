@@ -18,14 +18,14 @@
 ## Features
 
 ### Login & Register Functionality
-Leveraging the relationality of PostgreSQL, the Book Exchange has the ability to create new users, and also allow those users to have books that correspond with their user profile. 
+The Book Exchange has the ability to create new users, and also allow those users to have books that correspond with their user profile. 
 
 <p align="center">
 <img src="./images/register.png" />
 </p>
 
-### Add Favorite Books By ISBN
-Want to add your favorite book? Simply find your favorite reading material's ISBN and add it to the Book Exchange to have a customized platform to note the books you currently own!
+### Add Favorite Books By Author Name, Title
+Want to add your favorite book? Simply find your favorite reading material's Title and Author details and add it to the Book Exchange to have a customized platform to note the books you currently own!
 
 <p align="center">
 <img src="./images/findingBooks.png" />
@@ -36,8 +36,8 @@ Want to add your favorite book? Simply find your favorite reading material's ISB
 ### React
 The choice of React comes with the SPA nature of this type of application designed to render views and easily convert between web or mobile. The reusability of the components and modularity was also key, as we wanted the application to be able to be iterated over by future open source developers. Also, React has the capabilities of server side rending, allowing developers to utilize the Vitual DOM without needing to update the view every time. 
 
-### PostgreSQL
-The use of PostgreSQL was chosen to efficiently combine our highly relational data with the combination of users that we required for the application. The relational nature of a SQL database allowed an overarching top down view of the data we were moving from the backend to the frontend, and allowed concise data movement as we were developing the application. 
+### MongoDb
+The use of MongoDB was chosen for its flexibility and scalability in managing the diverse data requirements of our application. As a NoSQL database, MongoDB efficiently handles semi-structured data, such as user profiles, book listings, and exchange transactions, without the need for predefined schemas. Its document-based model allows for seamless integration of nested and dynamic data structures, making it ideal for evolving requirements. The ability to index and query large datasets with high performance ensured efficient retrieval of books and user-related data, supporting the application's search and filtering functionalities. Additionally, MongoDB's scalability and horizontal scaling capabilities make it a robust choice for future growth and increasing user demand.
 
 ### Bcrypt
 Bcrypt was an ideal choice to encrypt the passwords for our users, as we felt its unique salt hashing system would add increased security, and also an easy framework for hashing passwords exponentially more if warranted. 
